@@ -42,9 +42,12 @@ class CfgFunctions
 			file = "yeiijMenu\functions";
 			class MenuAddAction {};
 			class MenuArsenal {};
+			class MenuDisplayAddEventHandler {};
 			class MenuEarplugs {};
 			class MenuGarage {};
 			class MenuHalo {};
+			class MenuHeal {};
+			class MenuKeyDown {};
 			class MenuObjCls {};
 			class MenuService {};
 			class MenuTeleport {};

@@ -5,7 +5,8 @@ Standalone Addon for Arma 3
 The addon add actions to the mouse wheel and some key binds:
  - teleport = alt + click on map
  - Earplugs = F1
- - Repair/Refuel/Heal = F2
+ - Repair/Refuel = F2
+ - Heal self and target = F3
 
 ## How i do install this?
 1 - Download the code and make a PBO or download the [latest released version](https://github.com/yeiij/yeiijMenu/releases)
@@ -23,5 +24,15 @@ remember load the mod on server start at -serverMods
 [] spawn YEIIJ_fnc_MenuAddAction;
 ```
 
+<br>
+3 - Add the next call in your mission in init.sqf:
+
+```SQF
+[] spawn YEIIJ_fnc_MenuDisplayAddEventHandler;
+```
+
 ## How i do edit this?
 the addon contains a file named [config.sqf](https://github.com/yeiij/yeiijMenu/blob/master/config/config.sqf) inside the folder config
+
+## Do you want to thank for my work?
+https://paypal.me/yeiij

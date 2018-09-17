@@ -25,7 +25,7 @@ remember load the mod on server start at -serverMods
 ```
 
 <br>
-3 - Add the next call in your mission in init.sqf:
+4 - Add the next call in your mission in init.sqf:
 
 ```SQF
 [] spawn YEIIJ_fnc_MenuDisplayAddEventHandler;

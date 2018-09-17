@@ -2,7 +2,7 @@
 Standalone Addon for Arma 3
 
 ## What this does?
-The addon add actions to the mouse wheel and some key binds:
+The addon add actions to the mouse wheel(i don't know a sh t about GUI) and some key binds:
  - teleport = alt + click on map
  - Earplugs = F1
  - Repair/Refuel = F2
